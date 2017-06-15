@@ -1,0 +1,31 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - VerifyA (0.1.0):
+    - VerifyA/Model (= 0.1.0)
+    - VerifyA/View (= 0.1.0)
+    - VerifyA/ViewModel (= 0.1.0)
+  - VerifyA/Model (0.1.0):
+    - VerifyA/View
+    - VerifyA/ViewModel
+  - VerifyA/View (0.1.0)
+  - VerifyA/ViewModel (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - VerifyA (from `../`)
+
+EXTERNAL SOURCES:
+  VerifyA:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  VerifyA: d6eb64eaefd161d91778efd80dc8bfb614d6295a
+
+PODFILE CHECKSUM: 593942906bdeb7b187b3c2be994b49574652e1bf
+
+COCOAPODS: 1.2.1

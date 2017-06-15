@@ -1,0 +1,43 @@
+{
+  "name": "VerifyA",
+  "version": "0.1.0",
+  "summary": "A short description of VerifyA.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/574784753@qq.com/VerifyA",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "574784753@qq.com": "2982432751@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/574784753@qq.com/VerifyA.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "subspecs": [
+    {
+      "name": "Model",
+      "source_files": "VerifyA/Classes/Model/**/*",
+      "dependencies": {
+        "VerifyA/ViewModel": [
+
+        ],
+        "VerifyA/View": [
+
+        ]
+      }
+    },
+    {
+      "name": "ViewModel",
+      "source_files": "VerifyA/Classes/ViewModel/**/*"
+    },
+    {
+      "name": "View",
+      "source_files": "VerifyA/Classes/View/**/*"
+    }
+  ]
+}

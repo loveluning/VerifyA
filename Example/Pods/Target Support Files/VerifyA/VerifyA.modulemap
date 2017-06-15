@@ -1,0 +1,6 @@
+framework module VerifyA {
+  umbrella header "VerifyA-umbrella.h"
+
+  export *
+  module * { export * }
+}
